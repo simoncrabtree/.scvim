@@ -1,6 +1,6 @@
 set encoding=utf-8
 
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/vundle/
 call vundle#rc()
 
 Bundle 'flazz/vim-colorschemes'
