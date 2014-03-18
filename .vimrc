@@ -6,6 +6,7 @@ call vundle#rc()
 Bundle 'flazz/vim-colorschemes'
 Bundle 'scrooloose/nerdtree'
 Bundle 'jelera/vim-javascript-syntax'
+Bundle 'pangloss/vim-javascript'
 Bundle 'kien/ctrlp.vim'
 
 color ir_black
@@ -22,5 +23,7 @@ set guioptions-=m  "remove menu bar
 set guioptions-=T  "remove toolbar
 set guioptions-=r  "remove right-hand scroll bar
 set guioptions-=L  "remove left-hand scroll bar
+
+filetype plugin indent on
 
 nnoremap <C-e> :NERDTreeToggle<CR>
