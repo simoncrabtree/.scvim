@@ -16,6 +16,8 @@ set expandtab
 set shiftwidth=2
 set softtabstop=2
 
+set noswapfile
+
 set nu "line numbers on
 set cursorline
 
