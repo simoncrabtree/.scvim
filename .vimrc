@@ -3,11 +3,14 @@ set encoding=utf-8
 set rtp+=~/vundle/
 call vundle#rc()
 
+let mapleader=','
+
 Bundle 'flazz/vim-colorschemes'
 Bundle 'scrooloose/nerdtree'
 Bundle 'jelera/vim-javascript-syntax'
 Bundle 'pangloss/vim-javascript'
 Bundle 'kien/ctrlp.vim'
+Bundle 'Lokaltog/vim-easymotion'
 
 color ir_black
 set guifont=Consolas:h16
