@@ -11,6 +11,7 @@ Bundle 'jelera/vim-javascript-syntax'
 Bundle 'pangloss/vim-javascript'
 Bundle 'kien/ctrlp.vim'
 Bundle 'Lokaltog/vim-easymotion'
+Bundle 'Shougo/neocomplcache'
 
 color ir_black
 set guifont=Consolas:h16
@@ -32,3 +33,5 @@ set guioptions-=L  "remove left-hand scroll bar
 filetype plugin indent on
 
 nnoremap <C-e> :NERDTreeToggle<CR>
+
+let g:neocomplcache_enable_at_startup = 1
