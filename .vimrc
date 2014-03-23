@@ -13,6 +13,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'Shougo/neocomplcache'
 Bundle 'tpope/vim-fugitive'
+Bundle 'bling/vim-airline'
 
 color ir_black
 set guifont=Consolas:h16
