@@ -4,6 +4,7 @@ set rtp+=~/vundle/
 call vundle#rc()
 
 let mapleader=','
+inoremap jj <Esc>
 
 Bundle 'flazz/vim-colorschemes'
 Bundle 'scrooloose/nerdtree'
