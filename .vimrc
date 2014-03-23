@@ -26,6 +26,14 @@ set noswapfile
 set nu "line numbers on
 set cursorline
 
+if has('statusline')
+  set laststatus=2
+  set statusline=%<%f\                     " Filename
+  set statusline+=%w%h%m%r                 " Options
+  set statusline+=%{fugitive#statusline()} " Git Hotness
+  set statusline+=\ [%{getcwd()}]          " Current dir
+endif
+
 set guioptions-=m  "remove menu bar
 set guioptions-=T  "remove toolbar
 set guioptions-=r  "remove right-hand scroll bar
