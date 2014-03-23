@@ -29,9 +29,6 @@ set cursorline
 if has('statusline')
   set laststatus=2
   set statusline=%<%f\                     " Filename
-  set statusline+=%w%h%m%r                 " Options
-  set statusline+=%{fugitive#statusline()} " Git Hotness
-  set statusline+=\ [%{getcwd()}]          " Current dir
 endif
 
 set guioptions-=m  "remove menu bar
@@ -58,3 +55,6 @@ nnoremap <silent> <leader>ge :Gedit<CR>
 " Mnemonic _i_nteractive
 nnoremap <silent> <leader>gi :Git add -p %<CR>
 nnoremap <silent> <leader>gg :SignifyToggle<CR>
+
+"Open Ctrl-P in Buffers mode
+nnoremap <silent> <leader>b :CtrlPBuffer<CR>
