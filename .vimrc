@@ -60,3 +60,6 @@ nnoremap <silent> <leader>gg :SignifyToggle<CR>
 
 "Open Ctrl-P in Buffers mode
 nnoremap <silent> <leader>b :CtrlPBuffer<CR>
+
+"neocomplcache <TAB>: completion. 
+inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>" 
